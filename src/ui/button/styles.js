@@ -6,13 +6,13 @@ export const BaseButton = styled.button`
   border-radius: 6px;
   color: ${(props) => props.color};
   text-align: center;
-  background-color: ${(props) => props.color};
+  background-color: ${(props) => props.backgroundColor};
   border: 2px solid ${(props) => props.borderColor};
   width: ${(props) => props.width};
   height: ${(props) => props.height};
   :hover {
     cursor: pointer;
-    background-color: ${(props) => (props.disabled ? '#d4a1a1' : '#d94f3f')};
+    background-color: ${(props) => (props.disabled ? '#d4a1a1' : '#ccc1c0')};
   }
 
   :focus {

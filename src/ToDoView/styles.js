@@ -9,19 +9,19 @@ export const MainContainer = styled.div`
 `;
 
 export const Container = styled.div`
-  width: 650px;
+  width: 750px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   background-color: ${(props) => props.theme.colors.lGray};
   border: 1px solid ${(props) => props.theme.colors.dGray};
 `;
 
 export const InputContainer = styled.div`
-  width: 70%;
+  width: 75%;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: start;
   border-radius: 3px;
-  padding: 10px 0;
+  padding: 20px 30px 20px 20px;
 `;

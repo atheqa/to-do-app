@@ -5,6 +5,7 @@ export const colors = {
   lGray: '#F4F2F0',
   gGreen: '#C8D7D2',
   dGray: '#373234',
+  red: '#d94f3f',
 
   // button colors
   disabled: '#d4a1a1',

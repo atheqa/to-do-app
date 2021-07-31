@@ -38,7 +38,7 @@ Button.propTypes = {
 };
 
 Button.defaultProps = {
-  backgroundColor: theme.colors.dGray,
+  backgroundColor: theme.colors.red,
   borderColor: theme.colors.gGreen,
   color: theme.colors.lGray,
   disabled: false,
