@@ -4,6 +4,7 @@ export const MainContainer = styled.div`
   width: 100%;
   height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 `;
@@ -21,7 +22,16 @@ export const InputContainer = styled.div`
   width: 75%;
   display: flex;
   flex-direction: row;
-  justify-content: start;
+  justify-content: center;
   border-radius: 3px;
   padding: 20px 30px 20px 20px;
+`;
+
+export const TaskContainer = styled.div`
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 2px;
+  padding: 10px;
 `;
